@@ -1,0 +1,33 @@
+# Data collection
+requests>=2.31.0
+tqdm>=4.66.0
+
+# Data processing
+pandas>=2.1.0
+numpy>=1.24.0
+
+# Traditional ML baselines
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+lightgbm>=4.1.0
+
+# Deep learning & NLP
+transformers>=4.40.0
+datasets>=2.18.0
+peft>=0.10.0
+torch>=2.1.0
+accelerate>=0.27.0
+
+# SciBERT baseline
+sentencepiece>=0.1.99
+
+# LLM API baselines (GPT-4o zero/few-shot)
+openai>=1.12.0
+
+# Evaluation & visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+wordcloud>=1.9.0
+
+# CoT generation
+anthropic>=0.18.0

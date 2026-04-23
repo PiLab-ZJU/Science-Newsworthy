@@ -1,0 +1,63 @@
+# -------- OS / editor --------
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# -------- Python --------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# -------- Data (do not commit) --------
+data/raw/
+data/processed/
+data/sft/
+data/news/
+data/*.json
+data/*.jsonl
+data/*.csv
+data/*.parquet
+data/*.tsv
+
+# -------- Model checkpoints / adapters --------
+outputs/*/
+!outputs/README.md
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+adapter_model.*
+pytorch_model.*
+
+# -------- Large analysis artifacts --------
+analysis/*.npy
+analysis/*.json
+analysis/*.csv
+!analysis/cached_artifacts/README.md
+
+# -------- Logs --------
+logs/*
+!logs/README.md
+*.log
+
+# -------- Figures / tables (regenerable) --------
+outputs/figures/
+outputs/tables/
+
+# -------- Secrets --------
+.env
+.env.*
+*.key
+credentials.json
